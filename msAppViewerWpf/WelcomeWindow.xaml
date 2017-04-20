@@ -9,12 +9,12 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <TabControl Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="0" VerticalAlignment="Top">
+        <TabControl Grid.ColumnSpan="2" HorizontalAlignment="Center" Margin="0" VerticalAlignment="Center">
             <TabItem x:Name="videoTab" Header="View Video">
-                <WebBrowser x:Name="videoPlayerBrowser" Source="https://www.youtube.com/embed/YE7VzlLtp-4" Height="400"/>
+                <WebBrowser x:Name="videoPlayerBrowser" Source="https://www.youtube.com/embed/YE7VzlLtp-4" Height="600"/>
             </TabItem>
             <TabItem x:Name="ImageTab" Header="View Image">
-                <Grid Background="#FFE5E5E5"/>
+                <Image Source="http://technicise.com/img/technicise.png"/>
             </TabItem>
             <TabItem x:Name="skypeTab" Header="Call On Skype">
                 <Grid Background="#FFE5E5E5"/>
