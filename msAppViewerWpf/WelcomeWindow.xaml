@@ -9,28 +9,18 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <TabControl Grid.ColumnSpan="2" HorizontalAlignment="Center" Margin="0" VerticalAlignment="Center">
-            <TabItem x:Name="videoTab" Header="View Video">
-                <WebBrowser x:Name="videoPlayerBrowser" Source="https://www.youtube.com/embed/6Vgb613wi8s" Height="600"/>
-            </TabItem>
+        <TabControl Grid.ColumnSpan="2"  Margin="0" VerticalAlignment="Top" HorizontalAlignment="Left">
             <TabItem x:Name="ImageTab" Header="View Image">
                 <Image Source="http://technicise.com/img/technicise.png"/>
             </TabItem>
+            <TabItem x:Name="videoTab" Header="View Video">
+                <WebBrowser x:Name="videoPlayerBrowser" Source="https://www.youtube.com/embed/6Vgb613wi8s" Height="600"/>
+            </TabItem>
             <TabItem x:Name="skypeTab" Header="Call On Skype">
-                <Grid Background="#FFE5E5E5"/>
+                <Button Content="Launch Skype" Name="skypeBtn" Click="skypeBtn_Click"></Button>
             </TabItem>
             <TabItem x:Name="wordTab" Header="View Word Document">
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="*"/>
-                    </Grid.RowDefinitions>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="*"/>
-                    </Grid.ColumnDefinitions>
-                    <Grid Grid.Row="1" Background="Red">
-                        <TextBlock Text="I'm in the bottom half of this tab" />
-                    </Grid>
-                </Grid>
+                <Button  Name="wordBtn" Content="Launch Word" Click="wordBtn_Click"></Button>
             </TabItem>
         </TabControl>
 

@@ -96,6 +96,16 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="skype\SkypeIntegration\SkypeIntegration.csproj">
+      <Project>{b4996cd2-5694-4472-a20b-c0d4f5f5de82}</Project>
+      <Name>SkypeIntegration</Name>
+    </ProjectReference>
+    <ProjectReference Include="word\CSVSTOViewWordInWPF\CSVSTOViewWordInWPF.csproj">
+      <Project>{7f02e934-a016-42fe-afa2-095e9bfb546e}</Project>
+      <Name>CSVSTOViewWordInWPF</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

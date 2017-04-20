@@ -24,5 +24,19 @@ namespace msAppViewerWpf
         {
             InitializeComponent();
         }
+
+       
+        private void skypeBtn_Click(object sender, RoutedEventArgs e)
+        {
+            SkypeIntegration.MainWindow skypeWindow = new SkypeIntegration.MainWindow();
+            skypeWindow.ShowDialog();
+        }
+
+       
+        private void wordBtn_Click(object sender, RoutedEventArgs e)
+        {
+            CSVSTOViewWordInWPF.MainWindow wordWindow = new CSVSTOViewWordInWPF.MainWindow();
+            wordWindow.ShowDialog();
+        }
     }
 }
