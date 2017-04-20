@@ -1,0 +1,9 @@
+C:\Users\CH\Documents\mswordViewer\C#\CSVSTOViewWordInWPF\obj\x86\Debug\CSVSTOViewWordInWPF.csprojResolveAssemblyReference.cache
+C:\Users\CH\Documents\mswordViewer\C#\CSVSTOViewWordInWPF\obj\x86\Debug\MainWindow.baml
+C:\Users\CH\Documents\mswordViewer\C#\CSVSTOViewWordInWPF\obj\x86\Debug\MainWindow.g.cs
+C:\Users\CH\Documents\mswordViewer\C#\CSVSTOViewWordInWPF\obj\x86\Debug\App.g.cs
+C:\Users\CH\Documents\mswordViewer\C#\CSVSTOViewWordInWPF\obj\x86\Debug\CSVSTOViewWordInWPF_Content.g.cs
+C:\Users\CH\Documents\mswordViewer\C#\CSVSTOViewWordInWPF\obj\x86\Debug\CSVSTOViewWordInWPF_MarkupCompile.cache
+C:\Users\CH\Documents\mswordViewer\C#\CSVSTOViewWordInWPF\obj\x86\Debug\CSVSTOViewWordInWPF.g.resources
+C:\Users\CH\Documents\mswordViewer\C#\CSVSTOViewWordInWPF\obj\x86\Debug\CSVSTOViewWordInWPF.Properties.Resources.resources
+C:\Users\CH\Documents\mswordViewer\C#\CSVSTOViewWordInWPF\obj\x86\Debug\CSVSTOViewWordInWPF.csproj.GenerateResource.Cache
