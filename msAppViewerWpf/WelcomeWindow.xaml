@@ -1,0 +1,38 @@
+﻿<Window x:Class="msAppViewerWpf.WelcomeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="WelcomeWindow" WindowStyle="None" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowState="Maximized">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <TabControl Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="0" VerticalAlignment="Top">
+            <TabItem x:Name="videoTab" Header="View Video">
+                <WebBrowser x:Name="videoPlayerBrowser" Source="https://www.youtube.com/embed/YE7VzlLtp-4" Height="400"/>
+            </TabItem>
+            <TabItem x:Name="ImageTab" Header="View Image">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+            <TabItem x:Name="skypeTab" Header="Call On Skype">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+            <TabItem x:Name="wordTab" Header="View Word Document">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Row="1" Background="Red">
+                        <TextBlock Text="I'm in the bottom half of this tab" />
+                    </Grid>
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+</Window>
